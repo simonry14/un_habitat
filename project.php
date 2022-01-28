@@ -31,7 +31,7 @@ $reint_record = mysqli_fetch_assoc($reint_result);
 
 <table width ="100%"  height="30" align="left" cellspacing="1">
   <tr>
-<td width="50%" height="26" align="center" bgcolor="#C15811" style="border-top-left-radius:15px; border-top-right-radius:15px; font-family:Calibri; font-size:20px; color:#fafafa ">Full Child Record</td>
+<td width="50%" height="26" align="center" bgcolor="#C15811" style="border-top-left-radius:15px; border-top-right-radius:15px; font-family:Calibri; font-size:20px; color:#fafafa ">Full Project Record</td>
   </tr>
 </table>
  <a href="view.php" style=" color:#666666; font-family:Calibri"><--Back To Directory</a> 
@@ -42,7 +42,7 @@ $reint_record = mysqli_fetch_assoc($reint_result);
 </table>
 <table width="70%" border="0" align="center" style="font-family:Calibri; border-collapse:collapse;" bordercolor="#C15811">
   <tr>
-    <td width="37%"><img src="cartoon-black-girl-got-idea-191438095.jpg" width="270" height="270"/></td>
+
     <td width="30%"><p><strong>Project id:</strong> <?php echo $record["id"]; ?></p>
       <p><strong>Project Title:</strong> <?php echo $record["project_id"]; ?></p>
       <p><strong>PAAS Code:</strong> <?php echo $record["paas_code"]; ?> </p>
