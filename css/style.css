@@ -1,0 +1,372 @@
+#main {
+width:960px;
+margin:50px auto;
+font-family:Calibri; 
+overflow:auto;
+background-color: f2f2f2;
+}
+#topnav {
+	background-color:#CCCCCC;
+	overflow: hidden;
+	border-radius:1px;
+	font-family: Calibri;
+}
+#view {
+	overflow: hidden;
+	border-radius:1px;
+	font-family: Calibri, "Calibri Light";
+}
+
+span {
+
+}
+
+
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+
+#login {
+width:300px;
+border-radius:10px;
+font-family:calibri;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin: auto;
+position:auto;
+align: center;
+}
+
+#nav {
+width:80%;
+border-radius:10px;
+font-family:calibri;
+border:2px solid #ccc;
+padding:10px 10px 5px;
+margin: auto;
+position: inherit;
+background-color: #FEFFED;
+}
+
+#navcurrent {
+width:80%;
+border-radius:10px;
+font-family:calibri;
+border:2px solid #ccc;
+padding:10px 10px 5px;
+margin: auto;
+position: inherit;
+background-color: #ed7d31;
+}
+
+#nav:hover {
+width:80%;
+border-radius:10px;
+font-family:calibri;
+border:2px solid #ccc;
+padding:10px 10px 5px;
+margin: auto;
+position: inherit;
+background-color: #ed7d31;
+}
+
+#navbox {
+width:10%;
+font-family:calibri;
+position: inherit;
+float:left;
+padding:10px;
+border-radius: 10px;
+}
+
+#contentbox {
+width:90%;
+font-family:calibri;
+position: inherit;
+/*float:right;*/
+border-radius:10px;
+font-family:calibri;
+border:2px solid #000;
+padding:10px 40px 25px;
+margin: auto;
+align: center;
+background-color:#FFFFFF;
+
+}
+
+input[type=text],input[type=password] {
+width:93.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:Calibri; 
+}
+input[type=submit] {
+	width:100%;
+	background-color: #ee9152;
+	color:#fff;
+	border:2px solid #ed7d31;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:10px;
+	margin:auto;
+	font-family:Calibri;
+}
+
+#profile {
+	padding:20px;
+	border:1px dashed grey;
+	font-size:20px;
+	/*background-color:#c15811;*/
+	font-color: #000000;
+	border-radius:10px;
+}
+#logout {
+float:right;
+padding:5px;
+border:0px
+}
+a {
+text-decoration:none;
+color:#ffffff
+}
+i {
+color:#ed7475	
+}
+#boxes { 
+width:30%; 
+height:100px; 
+padding: inherit;
+border:2px;
+background-color:#000000;
+font-family:Calibri;
+} 
+
+#topleftbox { 
+float:left;  
+background:#F9D5BD; 
+height:140px; 
+padding: inherit;
+border-radius: 5px;
+font-family:Calibri;
+font-weight:bold;
+font-size:20px;
+
+} 
+#topmiddlebox{ 
+float: left;  
+background:#F3A977; 
+height:140px;
+border-radius: 5px;
+font-family:Calibri;
+font-weight:bold;
+font-size:20px;
+padding: inherit; 
+
+} 
+#toprightbox{ 
+float:right; 
+background:#F19A60;
+height:140px; 
+border-radius: 5px;
+font-family:Calibri;
+font-weight:bold;
+font-size:20px;
+padding: inherit;
+
+}
+#bottomleftbox { 
+float:left;  
+background:Red; 
+width:25%; 
+height:280px; 
+} 
+#bottommiddlebox{ 
+float:left;  
+background:Green; 
+width:50%; 
+height:280px; 
+} 
+#bottomrightbox{ 
+float:right; 
+background:#C15811;
+height:140px; 
+border-radius: 5px;
+font-family:Calibri;
+font-weight:bold;
+font-size:20px;
+padding: inherit;
+}  
+.quickview {
+    overflow: hidden;
+	border-radius:25px;
+	font-family:Calibri;
+	font-size:18px;
+
+}
+
+
+.style3 {
+	color: #000000;
+	font-family: Calibri, "Calibri Light";
+	background-color: #999999;
+}
+/* Add a black background color to the top navigation */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ed7d30;
+  color: black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ed7d30;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+	float: right;
+	color: #999999;
+}
+.styled-summary {
+	border-collapse: collapse;
+	font-size: 1.2em;
+	font-family: Calibri;
+	min-width: 80%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+	padding-left: 20px;
+	float: left;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 14px;
+    font-family: Calibri ;
+	min-width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+	overflow-x:auto;
+}
+.styled-table2 {
+	border-collapse: collapse;
+	font-family: Calibri;
+	min-width: 40%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+	overflow-x:auto;
+	float:center;
+	border-radius: 20px;
+	height: auto;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+}
+.styled-table3 {
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 14px;
+    font-family: Calibri ;
+	min-width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+	overflow-x:auto;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.styled-summary2 {
+	border-collapse: collapse;
+	font-size: 1.2em;
+	font-family: Calibri;
+	min-width: 80%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+	padding-left: 20px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	height: auto;
+	width: auto;
+}
+.pagination {
+  display:inline-block ;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color #C1581;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Gray */
+}
+
+.pagination a.active {
+  background-color: #C15811;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #FF3333;
+}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
